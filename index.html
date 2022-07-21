@@ -16,16 +16,15 @@
 </head>
 <body>
 <div class="main">
-    <div id="action-letter"></div>
+    <!-- <div id="action-letter"></div> -->
     <h1 class="hero-title">
-        Todo App
+        Saglney
     </h1>
 
     <!--  Add task button  -->
-    <div id="add-task-button" class="box add-task-box">
+    <div id="add-task-button" class="box  add-task-box">
         <div class="pink-box">
-            <i class="fa-solid fa-crow"></i>
-        </div>
+            <i class="fa-solid fa-list-check"></i>        </div>
         Add a task
     </div>
 
@@ -34,13 +33,18 @@
     <div id="tasks" class="tasks">
 
 
-        <div class="box task-box">
-            <div class="task-checkbox">
-                <i class="fa-regular fa-face-grin-beam icon"></i>
+        <div class="box  task-box">
+            <div class="task-checkbox ">
+                <!-- <i class="fa-regular fa-face-grin-beam icon"></i> -->
+                <i class="fa-solid fa-check icon"></i>
             </div>
-            Send collaboration files to Jerusha
+
+            <textarea class="task-input" oninput="autoHeight(this)"></textarea>
+            <div class="spacer"></div>
+            <i class="fa-regular fa-trash-can"></i>
         </div>
     </div>
+    
 
 </div>
 
